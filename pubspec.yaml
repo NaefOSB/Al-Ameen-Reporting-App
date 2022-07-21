@@ -1,0 +1,120 @@
+name: flutter_app_alameen
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http:
+  intl:
+  flutter_math:
+  screenshot:
+  pdf:
+  path_provider:
+  open_file:
+  modal_progress_hud: ^0.1.3
+  font_awesome_flutter:
+  get_storage:
+
+
+  #  floor:
+  #  provider:
+  shared_preferences:
+  get:
+  #google_fonts:
+
+
+
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/ameenback.PNG
+    - assets/images/signinback.PNG
+    - assets/images/ameen.jpg
+    - assets/images/ameenback2.PNG
+    - assets/images/accounts.PNG
+    - assets/images/employee.PNG
+    - assets/images/paper.PNG
+    - assets/images/logout.PNG
+    - assets/images/bond.PNG
+    - assets/images/bill.PNG
+    - assets/images/logoutt.PNG
+    - assets/images/signback.PNG
+    - assets/images/signInIcons.png
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+    - family: Janna
+      fonts:
+        - asset: assets/fonts/Janna-LT-Bold.ttf
+    - family: CairoB
+      fonts:
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+    - family: Cairo2
+      fonts:
+        - asset: assets/fonts/Cairo-Regular2.ttf
+
+  #        - asset: assets/fonts/Amiri-Italic.ttf
+  #          weight: 600
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
